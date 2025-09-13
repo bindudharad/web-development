@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>1. structure of html</h1>
+    <p>if enter explementary mark(!) html code or templet will be open</p>
+    <p>p tag is printing out as a paragraph</p>
+
+    <h1>2. headline tag</h1>
+    <p>Total 6 headline tags are there (h1,h2,h3,h4,h5,h6)</p>
+    <h1>Bindu</h1>
+    <h2>Bindu</h2>
+    <h3>Bindu</h3>
+    <h4>Bindu</h4>
+    <h5>Bindu</h5>
+    <h6>Bindu</h6>
+
+    <p>commend lines are <!-- start with   end with--></p>
+
+    <p>br tags is use to brake the string or lines and it is not needed end tags</p>
+    <p>Bindu is a good boy<br> Bindu is good boy</p>
+
+
+    <p> in the p tag using more tags to  print</p>
+    <p> <u>u tag is used for underline</u>, <b>b tag is used for bold the letter(thickness)</b>, <mark> mark tag is higlight the word with yellow color</mark>, <i>i tag is used for italic word</i></p>
+    
+    <h1>3. image tag and anchor tag</h1>
+    <p>image tags are 2 ways to adding image(loacl file and internet)</p>
+    <p>syntax <img src="" alt=""> </p>
+    <p>alt means alternative if image is error it show in the place of image</p>
+    <img src="https://miro.medium.com/1*l4xICbIIYlz1OTymWCoUTw.jpeg" alt="code" height="200" width="300">
+    <br><br>
+    <img src="images\images.png" alt="code" height="200" width="300">
+
+    <p>anchor tags</p>
+    <p>syntax or template <a href=""></a></p>
+    <p>example</p>
+    <a href="https://facebook.com">click</a>
+    <p>It opens in a same tab</p>
+    <a href="https://facebook.com"target="_blank">click</a>
+    <p>look like a same but it opens in new tab</p>
+    <a href="https://facebook.com"target="_blank"><img src="images\images.png"alt="program"height="200"width="300"></a>
+
+    <h1>4. List</h1>
+    <P>for ordder list we can use ol tag and unorder list we can us eul tag</P>
+    <p>In this we can us eli tag for list</p>
+
+    <p>unorder list</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <p>order list</p>
+    <ol>
+        <li>python</li>
+        <li>java</li>
+        <li>C++</li>
+    </ol>
+    <p>It is direct showing 1,2,3_ _ _ _ numbers</p>
+    
+    <p>orderlist for alphabet</p>
+    <ol style="list-style-type: lower-alpha;">
+        <li>python</li>
+        <li>java</li>
+        <li>C++</li>
+    </ol>
+    <p>orderlisayt for romman</p>
+    <ol style="list-style-type: lower-roman;">
+        <li>python</li>
+        <li>java</li>
+        <li>C++</li>
+    </ol>
+
+
+    <h1>5. Tables</h1>
+
+    <p>Here 4 tags are there <br> table tag => table starting <br> tr tag => table row <br> th tag => table headding(bold) <br> td tag => table content(list)</p>
+
+
+    <table>
+        <tr>
+            <th>Sl.no</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>BINDU</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bindas</td>
+            <td>11th</td>
+        </tr>
+    </table>
+
+    <p>Table inside the table</p>
+    <table>
+        <tr>
+            <th>Sl.no</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>BINDU</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Class</th>
+                    </tr>
+                    <tr>
+                        <td>Bindu</td>
+                        <td>11th</td>
+                    </tr>
+                    <tr>
+                        <td>Dumbi</td>
+                        <td>12th</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p>for the table border we use style tag inside the head tag(CSS)</p>
+
+    <h1>6. Form tags</h1>
+    <form action="/backend.php">
+        <label for="name1"> Name: </label>
+        <input type="text" name="name1" id="name1">
+        <p>It is taking input</p>
+        <br><br>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username">
+        <p>Both are same (taking input) but usernamr give a suggestion (last time entered names or chrome stored names)</p>
+        <br><br>
+        <label for="Password"> Password: </label>
+        <input type="password" name="password" id="password">
+        <p>It is not showing letters</p>
+        <br><br>
+        <label for="email"> email: </label>
+        <input type="email" name="pmail" id="pmail">
+        <p>If any missing it will show error like( pleas include an '@' in the email address).</p>
+        <br><br>
+        <label for="gender"> Male </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="gender"> Female </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <p>you can only click either Male or Female</p>
+        <br><br>
+        <label for="fav1"> fav1, red: </label>
+        <input type="checkbox" name="fav1" id="fav1" value="red">
+        <label for="fav2"> fav2, green: </label>
+        <input type="checkbox" name="fav2" id="fav2" value="green">
+        <label for="fav3"> fav3, white: </label>
+        <input type="checkbox" name="fav3" id="fav3" value="white">
+        <p>you can select your choice</p>
+        <p>Select 3 also</p>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <h1>7. Inline and Block element</h1>
+    <p>Hello Everyone</p>
+    <p>Bindu</p>
+    <input type="text">
+    <input type="text">
+    <br><br>
+    <p>when we have inspect this page<br>Hello Everyone contains full line with above and down spaces and same as Bindu <br>this is a block element (it is not print a p tag in a same line)<br>but the input tags occupies only their places(it is not occupies extra place).</p>
+
+    <p>convertion of inline to block tag</p>
+    <div>
+        <input type="text">
+    </div>
+    <input type="text">
+    <p>1st input tag occupies only their place but div tag occupies hole line of area.</p>
+
+    <h1>8. Semantic tags</h1>
+    <head></head>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+    <p>There are block element <br>sementic tags are used in robit.txt <br>robit.txt: It is helps to search engine travel throw my web using robit.txt <br>It helps co search engine optimization</p>
+
+    <h1>9. class and id</h1>
+
+    <div>
+        <p class="div1">Hello Everyone</p>
+        <p id="div1p2">Hello Everyone</p>
+        <p class="div1" id="div1p3">Hello Everyone</p>
+        <p class="div1">Hello Everyone</p>
+    </div>
+    <div>
+        <p>Hello Everyone</p>
+    </div>
+    <p>It: we can use one element for id name we cannot use same id name for another element (It is unique)</p>
+    <p>clss: we can use for bunch of element iin css. <br> for bunch of element given the property.</p>
+
+</body>
+</html>

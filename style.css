@@ -1,0 +1,91 @@
+#p2{
+    color: blue;
+    background-color: aquamarine;
+    border: 2px solid green;
+}
+
+/* p{
+color: blue;
+background-color: aqua;
+border: 2px solid red;
+} */
+/* this is element selector (target to elements) */
+
+.div1{
+    color: blue;
+    background-color: aqua;
+    border: 2px solid red;
+}
+/* class selector (.(dot) for class selector) */
+
+#para1st{
+    color: blue;
+    background-color: aqua;
+    border: 2px solid red;
+}
+/* id selector (specificaly target for one element) (# for id selector) */
+
+/* h1,p{
+    color: blue;
+    background-color: aqua;
+    border: 2px solid red;
+} */
+/* it is effect to 2 elements (also we can contain multipel elements) */
+
+.div1 p{
+    color: blue;
+    background-color: aqua;
+    border: 2px solid red;
+}
+/* inside the div or class target to one element. */
+
+#para2{
+    color: red;
+    /* normal color picer */
+    color: rgb(120, 194, 139);
+    /* rgb color */
+    color: #2fff2f;
+    /* hex color */
+}
+
+#para3{
+    height: 300px;
+    width: 300px;
+}
+/* it is occupies this place(without any content also). */
+
+#para4{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+/* borders */
+#para5{
+    border: 2px solid blue;
+}
+/* border in one line */
+
+#para6{
+    border: 2px solid blue;
+    border-radius: 13px;
+}
+/* It applys every side */
+
+#para7{
+    border: 2px solid gray;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 10px;
+}
+/* it applys perticular sides */
+
+
+
+
+
+
+
+
+
+
