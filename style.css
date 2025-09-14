@@ -80,12 +80,87 @@ border: 2px solid red;
 }
 /* it applys perticular sides */
 
+#bg1{
+    /* background-color: bisque; */
+    /* it is for background color */
+    background-image: url(/images/images.png);
+    /* it is for background image */
+}
+#bg2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    color: red;
+    background-image: url(/images/images.png);
+}
+/* it looks as repeats the image becaus it is small image */
 
+#bg3{
+    background-repeat: no-repeat;
+    /* above code(same as it is) */
+    background-position: top left;
+    /* we can aline with position (top left, top center, top left, center left, center center, center right, bottom left, bottom center, bottom left)*/
+    /* for position change */
+}
 
+*{
+    margin: 0px;
+}
+/* It contains full spaces */
 
+.div1{
+    border: 4px solid red;
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+}
 
+.div2{
+    border: 4px solid rebeccapurple;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
 
+.div3{
+    border: 4px solid gold;
+    width: 40px;
+    margin: 10px 5px 15px 20px;
+    /* top, right, bottom, left */
+/* above code in single line */
+}
 
+.div4{
+    border: 4px solid firebrick;
+    width: 400px;
+    padding: 20px;
+}
+
+.div5{
+    border: 4px solid darkorange;
+    width: 400px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.div6{
+    border: 3px solid indianred;
+    width: 400px;
+    padding: 10px 15px 20px 25px;
+    /* top, right, bottom, left */
+    /* above code in single line */
+}
+.div7{
+    border: 4px solid rgb(80, 17, 228);
+    width: 400px;
+    padding: 10px 15px 20px 25px;
+    box-sizing: border-box;
+
+}
 
 
 
