@@ -162,5 +162,95 @@ border: 2px solid red;
 
 }
 
+#pseudo{
+    text-decoration: none;
+    /* Here visit down under line deleted */
+}
+
+.btn{
+    background-color: aqua;
+    margin-top: 5px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    /* convert hand sign */
+}
+/* ll: border and words in black color , background is aqua color */
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+/* ll: same color as above content but when put a hand curson on the botten it change a color and background color is white and background is black*/
+
+
+.btn:visited{
+    background-color: white;
+    color: red;
+}
+/* only click on the botten it shows visited color and bg color (like browser pages once visited it shows perpal color)*/
+
+.btn:active{
+    background-color: bisque;
+    color: blue;
+}
+/* clicked the page but not enter the page(click and corserve in the visit botten only) */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.floats{
+    border: 2px solid rgb(25, 15, 173);
+    background-color: aquamarine;
+    width: 600px;
+    margin: auto;
+}
+
+.float{
+    border: 2px solid black;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#flo1{
+    float: left;
+}
+/* it is over laping flo2 and floating to left side */
+
+#flo2{
+    float: right;
+}
+/* when give a float left it is also float left side and flo1 and flo2 over laping the flo3 */
+/* when give a float right it also same but float at left */
+
+#flo3{
+    width: 90%;
+    clear: both;
+}
+/* when we give clear in flo3 it is not over lapin each other
+    -- flo3 at same position
+    -- when give a center both */
+ /* when give a left or right it is over laping when the content is more then limit. */
+
+ .dheader{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blanchedalmond;
+ }
+ /*  */
+ .display{
+    border: 2px solid red;
+    width: auto;
+    margin: 20px auto;
+ }
+#dis{
+    border: 2px solid green;
+    margin: 10px;
+    width: 150px;
+}
+
 
 
