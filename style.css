@@ -246,11 +246,56 @@ border: 2px solid red;
     width: auto;
     margin: 20px auto;
  }
-#dis{
+.dis{
     border: 2px solid green;
     margin: 10px;
     width: 150px;
+
+    /* without display property we mentioned width for divs but it contains more space. */
+
+
+
+    /* display: inline; */
+    /* When give display: inline; it will change to convert as inline element without width size. We cannot use display inline.*/
+
+    
+    display: inline-block;
+    /* When gives display: inline-block; it will contain inline with block element. divs Contains only needed space with properly mentioned width. */
+    
+    /* display: block; */
+    /* display: block; it contains full space. */
+
+
+
+    /* when we use display property.
+    >>inline to block & block to inline we use display property. */ 
 }
 
+.header11{
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(83, 8, 222);
+}
 
+.position{
+    border: 2px solid beige;
+    width: auto;
+    margin: 20px auto;
+    height: 1000px;
+}
+.pos{
+    border: 2px solid rgb(10, 218, 65);
+    margin: 10px;
+    width: 150px;
+    display: inline-block;
+}
+#pos2{
+    border: 2px solid rgb(230, 10, 10);
+    position: absolute;
+    /* left: 10px; */
+    /* top: 20px; */
+    right: 10px;
+    /* bottom: 100px; */
+}
+/* when use absolute in the parent box(div box) pos2 position will be wmpty they stored in the same place, we */
 
